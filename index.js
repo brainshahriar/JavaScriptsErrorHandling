@@ -1,6 +1,11 @@
-let name="mehedi";
-console.log(typeof name);
+let name ="shahriar";
 let age=50;
-console.log(typeof age);
-let isMarried=true;
-console.log(typeof isMarried);
+let hobby ='reading';
+let user={
+    name:'shahriar',
+    age:50,
+    hobby:'sex',
+}
+
+console.log(user);
+console.log(user['hobby']);
