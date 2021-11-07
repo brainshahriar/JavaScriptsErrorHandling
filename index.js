@@ -57,7 +57,18 @@ const cslSumExp=function(number1,number2){
 }
 console.log(cslSumExp(50,45));
 
+//Arrow function
 
+const calSumArr = (number1,number2)=>number1+number2;
 
+console.log(calSumArr(50,50));
 
+const mulByTwo = function(number1){
+    return number1 * 2;
+}
+console.log(mulByTwo(6));
 
+//Arrow function
+const mulByTwoArr = (number1)=>number1*2;
+
+console.log(mulByTwoArr(8));
