@@ -28,22 +28,36 @@
 
 //function
 
-function aboutMe(name,age){
-    const message =`i am ${name} and i am ${age} years old`;
-    console.log(message);
-}
-aboutMe('sha',55);
-aboutMe('ba',60);
+// function aboutMe(name,age){
+//     const message =`i am ${name} and i am ${age} years old`;
+//     console.log(message);
+// }
+// aboutMe('sha',55);
+// aboutMe('ba',60);
 
 // let number1=20;
 // let number2=30;
+
+//default parameteres
+console.log(calSum(10,30));
 
 function calSum(number1,number2){
     let sum=number1+number2;
     return sum;
 }
-let result=calSum(10,21);
+// let result=calSum(10,21,50);
 
 
-console.log(result);
+
+//function expression
+
+const cslSumExp=function(number1,number2){
+    let sum=number1+number2;
+    return sum;
+}
+console.log(cslSumExp(50,45));
+
+
+
+
 
