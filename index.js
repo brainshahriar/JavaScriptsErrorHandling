@@ -76,10 +76,11 @@
 // let javaISFun=true;
 // console.log(javaISFun);
 
-function foo(){
-    for (const i=0;i<4;i++){
-        console.log('ASM');
-    }
-    //  console.log(i);
-}
-foo();
+// function foo(){
+//     for (const i=0;i<4;i++){
+//         console.log('ASM');
+//     }
+//     //  console.log(i);
+// }
+// foo();
+
