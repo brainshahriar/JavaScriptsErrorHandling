@@ -13,5 +13,5 @@
 // let multiply = m => m*m*m;
 // console.log(multiply(3));
 
-let add = (m,n) => m+n;
-console.log(add(5,7))
+// let add = (m,n) => m+n;
+// console.log(add(5,7))
