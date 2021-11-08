@@ -39,36 +39,39 @@
 // let number2=30;
 
 //default parameteres
-console.log(calSum(10,30));
+// console.log(calSum(10,30));
 
-function calSum(number1,number2){
-    let sum=number1+number2;
-    return sum;
-}
-// let result=calSum(10,21,50);
+// function calSum(number1,number2){
+//     let sum=number1+number2;
+//     return sum;
+// }
+// // let result=calSum(10,21,50);
 
 
 
-//function expression
+// //function expression
 
-const cslSumExp=function(number1,number2){
-    let sum=number1+number2;
-    return sum;
-}
-console.log(cslSumExp(50,45));
+// const cslSumExp=function(number1,number2){
+//     let sum=number1+number2;
+//     return sum;
+// }
+// console.log(cslSumExp(50,45));
 
-//Arrow function
+// //Arrow function
 
-const calSumArr = (number1,number2)=>number1+number2;
+// const calSumArr = (number1,number2)=>number1+number2;
 
-console.log(calSumArr(50,50));
+// console.log(calSumArr(50,50));
 
-const mulByTwo = function(number1){
-    return number1 * 2;
-}
-console.log(mulByTwo(6));
+// const mulByTwo = function(number1){
+//     return number1 * 2;
+// }
+// console.log(mulByTwo(6));
 
-//Arrow function
-const mulByTwoArr = (number1)=>number1*2;
+// //Arrow function
+// const mulByTwoArr = (number1)=>number1*2;
 
-console.log(mulByTwoArr(8));
+// console.log(mulByTwoArr(8));
+
+let javaISFun=true;
+console.log(javaISFun);
